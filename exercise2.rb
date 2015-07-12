@@ -12,12 +12,15 @@
   def get_title
     @title
   end
+  
   def get_author
     @author
   end
+  
   def get_content
     @content
   end
+  
   def update_content(new_content)
     @content = new_content    
   end
